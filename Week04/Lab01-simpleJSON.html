@@ -1,0 +1,22 @@
+<html>
+    
+    <title>JSON to Javascript</title>
+       
+    </body>
+        <div id=show></div>
+
+
+        <script>
+                var obj = JSON.parse('{"isbn": 1234567, "Author": "Andrew Beatty","Title" : "the emptness of ping-pong balls"}')
+                obj.isbn = "1234567"
+                obj.Author = "Andrew Beatty"
+                obj.Title = "the emptness of ping-pong balls"
+                document.getElementById("show").innerHTML = obj.isbn  +  obj.Author  + obj.Title; 
+                
+                console.log(obj.Author)
+        </script>    
+
+    </body>
+                
+
+</html> 
